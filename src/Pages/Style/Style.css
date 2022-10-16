@@ -1,0 +1,322 @@
+.fromSection{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contactHead h2{
+    position: relative;
+    color: #F1592A;
+    display: inline-block;
+}
+.contactHead h2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    left: 0%;
+    border-bottom: 4px solid #F1592A;
+}
+.headerWidth{
+    width: 100%;
+}
+.aboutHead h2{
+    position: relative;
+    color: #F1592A;
+    display: inline-block;
+    align-items: center;
+}
+.aboutHead h2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    left: 0%;
+    border-bottom: 4px solid #F1592A;
+}
+.section-Head h2{
+    position: relative;
+    color: #F1592A;
+    display: inline-block;
+}
+.section-Head h2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border-bottom: 4px solid #F1592A;
+}
+.missionHead h2{
+    color: #F1592A;
+    font-weight: 700;
+    border-bottom: 4px solid #F1592A;
+    width: 10%;
+    margin: auto;
+}
+.vissionHead h2{
+    color: #F1592A;
+    font-weight: 700;
+    border-bottom: 4px solid #F1592A;
+    width: 9%;
+    margin: auto;
+}
+.contact-US{
+    display: flex;
+    margin-bottom: 24px;
+}
+.right-side{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.service-wrapper{
+    background-color: #b5c0c56b;
+    padding: 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    border-radius: 5px;
+}
+.service{
+    background-color: #fff;
+    padding: 20px;
+}
+.service{
+    position: relative;
+}
+.service1 i{
+    position: absolute;
+    width: 80%;
+    top: 40%;
+    left: 110%;
+    font-size: 50px;
+}
+.service2 i{
+    position: absolute;
+    width: 80%;
+    top: 40%;
+    left: 110%;
+    font-size: 50px;
+    
+}
+.service3 i{
+    position: absolute;
+    width: 80%;
+    top: 110%;
+    left: 40%;
+    font-size: 50px;
+    
+}
+.service6 i{
+    position: absolute;
+    width: 80%;
+    top: 40%;
+    left: -25%;
+    font-size: 50px;
+    
+}
+.service5 i{
+    position: absolute;
+    width: 80%;
+    top: 40%;
+    left: -25%;
+    font-size: 50px;
+    
+}
+.service4 i{
+    position: absolute;
+    width: 80%;
+    top: 110%;
+    left: 25%;
+    font-size: 50px;
+    
+}
+.service7 i{
+    position: absolute;
+    width: 80%;
+    top: 40%;
+    left: 110%;
+    font-size: 50px;
+    
+}
+.service8 i{
+    position: absolute;
+    width: 80%;
+    top: 40%;
+    left: 110%;
+    font-size: 50px;
+    
+}
+.about{
+    background-color: #b5c0c56b;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.vission{
+    background-color: #b5c0c56b;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.left-side{
+    background-color: #b5c0c56b;
+    padding: 20px 10px 10px 20px;
+    border-radius: 10px;
+    width: 92%;
+    margin: auto;
+
+}
+.contact-US h5{
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+.contact-US i{
+    font-size: 40px;
+    margin-right: 10px;
+    color: #F1592A;
+}
+.aboutHead{
+    margin-bottom: 83px;
+}
+.contactHead{
+    margin-bottom: 130px;
+}
+.contactHeadLeft{
+    background-color: #b5c0c56b;
+    border-radius: 5px;
+    padding: 20px 10px;
+    width: 46%;
+    margin-right: 10px;
+}
+.contactHeadRight{
+    background-color: #b5c0c56b;
+    border-radius: 5px;
+    padding: 20px 10px;
+    width: 50%;
+}
+.profile-head{
+    margin-bottom: 555px;
+}
+.aboutParagraph{
+    width: 85%;
+    align-items: center;
+}
+.companies h2{
+    position: relative;
+    color: #F1592A;
+    align-items: center;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+.companies h2::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    width: 100%;
+    left: 0%;
+    border-bottom: 4px solid #F1592A;
+}
+.left-company{
+    background-color: #E0E5E7;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.right-company{
+    background-color: #E0E5E7;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.eleven{
+    color: black;
+    text-decoration: none;
+}
+.elevenhover{
+    cursor: pointer;
+    color: #F1592A;
+}
+.contact-person p{
+    padding: 0;
+    margin: 0;
+}
+.dropdown span:hover{
+    cursor: pointer;
+}
+.imageGallery img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Product-head{
+    text-shadow: 2px 2px 5px red;
+    margin-top: 75px !important;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 348px) {
+    .aboutHead,.companies,.contactHead,.section-Head h2{
+        padding-top: 45px !important;
+    }
+    .contactHeadLeft{
+        
+        width: 100%;
+        margin-right: 10px;
+    }
+    .contactHeadRight{
+        width: 100%;
+    }
+  }
+  .service-media i{
+    display: none;
+  }
+@media only screen and (max-width: 992px) {
+    .service-wrapper{
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+    }
+    .service1 i{
+        display: none;
+    }
+    .service-media i{
+        display: block;
+        position: absolute;
+        top: 100%;
+        font-size: 50px;
+        left:45%
+    }
+    .service2 i{
+       display: none;
+    }
+    .service3 i{
+        left: 45%;
+        top: 100%;
+    }
+    .service6 i{
+        display: none;
+    }
+    .service5 i{
+        display: none;
+        
+    }
+    .service4 i{
+        position: absolute;
+        width: 80%;
+        top: 100%;
+        left: 45%;
+        font-size: 50px;
+        
+    }
+    .service7 i{
+        display: none;
+        
+    }
+    .service8 i{
+        display: none;
+        
+    }
+  }

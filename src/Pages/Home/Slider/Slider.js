@@ -35,7 +35,7 @@ const Slider = () => {
             src="https://i.ibb.co/k6m7z9L/5-s.jpg"
             className="d-block w-100"
             alt="..."
-            height="600px"
+            height="620px"
           />
           <div className="carousel-caption d-none d-md-block">
             <h3><span>Quality is our priority</span></h3>

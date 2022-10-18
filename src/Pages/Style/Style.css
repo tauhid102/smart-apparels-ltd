@@ -4,37 +4,8 @@
     border-radius: 5px;
     box-sizing: border-box;
 }
-.contactHead h2{
-    position: relative;
-    color: #F1592A;
-    display: inline-block;
-}
-.contactHead h2::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    left: 0%;
-    border-bottom: 4px solid #F1592A;
-}
 .headerWidth{
     width: 100%;
-}
-.aboutHead h2{
-    position: relative;
-    color: #F1592A;
-    display: inline-block;
-    align-items: center;
-}
-.aboutHead h2::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    left: 0%;
-    border-bottom: 4px solid #F1592A;
 }
 .section-Head h2{
     position: relative;
@@ -49,20 +20,6 @@
     width: 100%;
     left: 0;
     border-bottom: 4px solid #F1592A;
-}
-.missionHead h2{
-    color: #F1592A;
-    font-weight: 700;
-    border-bottom: 4px solid #F1592A;
-    width: 10%;
-    margin: auto;
-}
-.vissionHead h2{
-    color: #F1592A;
-    font-weight: 700;
-    border-bottom: 4px solid #F1592A;
-    width: 9%;
-    margin: auto;
 }
 .contact-US{
     display: flex;
@@ -208,21 +165,8 @@
     width: 85%;
     align-items: center;
 }
-.companies h2{
-    position: relative;
-    color: #F1592A;
-    align-items: center;
-    margin-bottom: 3px;
-    display: inline-block;
-}
-.companies h2::before{
-    content: '';
-    position: absolute;
-    top: 0px;
-    bottom: 0;
-    width: 100%;
-    left: 0%;
-    border-bottom: 4px solid #F1592A;
+.companies{
+    padding-bottom: 140px;
 }
 .left-company{
     background-color: #E0E5E7;

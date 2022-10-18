@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img
-              src="https://i.ibb.co/V9yvzyR/header-Logo.png"
+              src="https://i.ibb.co/6RYVrgB/SABD-logo.png"
               alt="Logo"
               width= "120%"
               height="40"
@@ -52,15 +52,14 @@ const Navbar = () => {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  {" "}
-                  Products{" "}
+                  Products
                 </span>
                 <ul
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li className="dropdown-submenu">
-                    <Link to=''
+                    <Link to='#'
                       className="dropdown-item dropdown-toggle"
                     >
                       Knit
@@ -94,7 +93,7 @@ const Navbar = () => {
                     </ul>
                   </li>
                   <li className="dropdown-submenu">
-                    <Link to=''
+                    <Link to='#'
                       className="dropdown-item dropdown-toggle"
                       href="http://google.com"
                     >

@@ -3,7 +3,7 @@ import '../Style/Style.css'
 const AboutUs = () => {
   return (
     <>
-      <div className="mt-5 pt-3 container aboutHead">
+      <div className="mt-5 pt-3 container section-Head">
         <div className="headerWidth text-center"><h2 className=" mt-3">About Us</h2></div>
         <div className="row row-cols-1 row-cols-md-2">
           <div className="col">
@@ -17,8 +17,8 @@ const AboutUs = () => {
           </div>
           <div className="col about mt-3">
             <p className="aboutParagraph mt-4">
-              Smart Apparels Ltd. (SAL) is a 100% export oriented Garment
-              Buying House and Sourcing agent. Smart Apparels Ltd. located in
+              Smart Apparels BD (SABD) is a 100% export oriented Garment
+              Buying House and Sourcing agent. Smart Apparels BD located in
               Dhaka, which is the hub of all the commercial and business
               activities of Bangladesh.
             </p>

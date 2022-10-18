@@ -3,12 +3,12 @@ import "../Style/Style.css";
 const Contact = () => {
   return (
     <div>
-      <div className="mt-5 pt-3 container contactHead">
+      <div className="mt-5 pt-3 container section-Head">
         <div className="text-center headerWidth"><h2 className="mt-3">Contact Us</h2></div>
         <div className="row row-cols-1 row-cols-md-2 mt-2 g-4">
           <div className="col contactHeadLeft">
             <div className="Contact-Color">
-              <div className="contact-US">
+              {/* <div className="contact-US">
                 <div className="">
                   <i className="fa-solid fa-location-dot p-1"></i>
                 </div>
@@ -18,7 +18,7 @@ const Contact = () => {
                     Mirpur-11, Block-C, Line-2, House-41, Dhaka-1216, Bangladesh
                   </span>
                 </div>
-              </div>
+              </div> */}
               {/* <div className="contact-US">
                 <div>
                   <i className="fa-solid fa-phone"></i>
@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h5>Website</h5>
-                  <span>https://smartapparelsltd.</span>
+                  <span>https://smartapparelbd.com</span>
                 </div>
               </div>
             </div>

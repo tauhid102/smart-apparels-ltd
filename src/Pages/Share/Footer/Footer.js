@@ -11,8 +11,8 @@ const Footer = () => {
               <h2>About us</h2>
               <hr />
               <p>
-                Smart Apparels Ltd. (SAL) is a 100% export oriented Garment
-                Buying House and Sourcing agent. Smart Apparels Ltd. located
+                Smart Apparels BD (SABD) is a 100% export oriented Garment
+                Buying House and Sourcing agent. Smart Apparels BD. located
                 in Dhaka, which is the hub of all the commercial and business
                 activities of Bangladesh.
               </p>
@@ -73,13 +73,16 @@ const Footer = () => {
                   <li>
                     <Link to="/services">Service</Link>
                   </li>
+                  <li>
+                    <a target="_blank" href="https://drive.google.com/file/d/1aDo3HkgpK8G4rOlwzNzRdvLsRDvvihyn/view?fbclid=IwAR04zkqzj52goM2xKQJBxp5tcJ4TF_nXB23VJHDrqCIpSpUeya3DMNcJ9ZY">Profile</a>
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="col">
               <h2>Contact</h2>
               <hr />
-              <div className="phone mb-3">
+              {/* <div className="phone mb-3">
                 <i className="fa-solid fa-location-dot p-1"></i>
                 <span>
                   Mirpur-11, Block-C, Line-2,<br></br>{" "}
@@ -87,7 +90,7 @@ const Footer = () => {
                     House-41, Dhaka-1216, Bangladesh
                   </span>
                 </span>
-              </div>
+              </div> */}
               <div className="phone mb-3 d-flex">
                 <i className="fa-solid fa-phone fs-6 me-2 mt-2"></i>
                 <p>+88 01863-294433 <br></br>+88 01726-193502</p>

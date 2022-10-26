@@ -1,6 +1,9 @@
 import React from 'react';
-import Header from '../../Share/Header/Header'
-
+import image1 from "../../../images/Woven/Shirt/1.jpeg";
+import image2 from "../../../images/Woven/Shirt/2.jpeg";
+import image3 from "../../../images/Woven/Shirt/3.jpg";
+import image4 from "../../../images/Woven/Shirt/4.jpg";
+import image5 from "../../../images/Woven/Shirt/5.jpg";
 const Shirts = () => {
     return (
         <div>
@@ -9,12 +12,12 @@ const Shirts = () => {
                 <div className="imageGallery row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div className="col ">
                         <img
-                            src="https://i.ibb.co/WDFf4k3/3.jpg"
+                            src={image1}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Boat on Calm Water"
                         />
                         <img
-                            src="https://i.ibb.co/J7Xhrtb/5.jpg"
+                            src={image2}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Wintry Mountain Landscape"
                         />
@@ -22,13 +25,13 @@ const Shirts = () => {
 
                     <div className="col ">
                         <img
-                            src="https://i.ibb.co/xjXCyBv/4.jpg"
+                            src={image3}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Mountains in the Clouds"
                         />
 
                         <img
-                            src="https://i.ibb.co/FYLqHRs/1.jpg"
+                            src={image4}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Boat on Calm Water"
                         />
@@ -36,7 +39,7 @@ const Shirts = () => {
 
                     <div className="col ">
                         <img
-                            src="https://i.ibb.co/yYJD2CH/2.jpg"
+                            src={image5}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Waves at Sea"
                         />

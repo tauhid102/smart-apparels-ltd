@@ -1,5 +1,9 @@
 import React from "react";
-
+import image1 from "../../../images/Knit/T-shirt/1.jpg";
+import image2 from "../../../images/Knit/T-shirt/2.jpg";
+import image3 from "../../../images/Knit/T-shirt/3.jpg";
+import image4 from "../../../images/Knit/T-shirt/4.jpg";
+import image5 from "../../../images/Knit/T-shirt/5.jpg";
 const TShirt = () => {
   return (
     <div>
@@ -8,12 +12,12 @@ const TShirt = () => {
         <div className="imageGallery row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div className="col">
             <img
-              src="https://i.ibb.co/BfCc0WG/5.jpg"
+              src={image1}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Boat on Calm Water"
             />
             <img
-              src="https://i.ibb.co/51g6Z0Q/4.jpg"
+              src={image2}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Wintry Mountain Landscape"
             />
@@ -21,13 +25,13 @@ const TShirt = () => {
 
           <div className="col">
             <img
-              src="https://i.ibb.co/r67NcZ1/3.jpg"
+              src={image3}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Mountains in the Clouds"
             />
 
             <img
-              src="https://i.ibb.co/R49jGRk/1.jpg"
+              src={image4}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Boat on Calm Water"
             />
@@ -35,7 +39,7 @@ const TShirt = () => {
 
           <div className="col">
             <img
-              src="https://i.ibb.co/RgGn6MS/2.jpg"
+              src={image5}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Waves at Sea"
             />

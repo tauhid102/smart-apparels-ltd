@@ -1,5 +1,8 @@
 import React from "react";
 import "./Slider.css";
+import slider1 from "../../../images/Slider/slider1.jpg";
+import slider2 from "../../../images/Slider/slider2.jpeg";
+import slider3 from "../../../images/Slider/slider3.jpeg";
 const Slider = () => {
   return (
     <div
@@ -32,7 +35,7 @@ const Slider = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://i.ibb.co/k6m7z9L/5-s.jpg"
+            src={slider2}
             className="d-block w-100"
             alt="..."
             height="620px"
@@ -43,7 +46,7 @@ const Slider = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.ibb.co/QK3Pyp4/12-s.jpg"
+            src={slider3}
             className="d-block w-100"
             alt="..."
             height="600px"
@@ -54,7 +57,7 @@ const Slider = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.ibb.co/WcFFnTr/11-s.jpg"
+            src={slider1}
             className="d-block w-100"
             alt="..."
             height="600px"

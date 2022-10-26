@@ -11,7 +11,7 @@ const Footer = () => {
               <h2>About us</h2>
               <hr />
               <p>
-                Smart Apparels BD (SABD) is a 100% export oriented Garment
+                Smart Apparel BD (SABD) is a 100% export oriented Garment
                 Buying House and Sourcing agent. Smart Apparels BD. located
                 in Dhaka, which is the hub of all the commercial and business
                 activities of Bangladesh.

@@ -1,5 +1,6 @@
 import React from 'react';
-
+import image1 from "../../../images/Woven/Chino/1.jpg";
+import image2 from "../../../images/Woven/Chino/2.jpg";
 const Chino = () => {
     return (
         <div>
@@ -8,14 +9,14 @@ const Chino = () => {
                 <div className="imageGallery row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div className="col ">
                         <img
-                            src="https://i.ibb.co/BySnPsR/2.jpg"
+                            src={image1}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Boat on Calm Water"
                         />
                     </div>
                     <div className="col ">
                         <img
-                            src="https://i.ibb.co/d6Cf9qt/1.jpg"
+                            src={image2}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt="Mountains in the Clouds"
                         />

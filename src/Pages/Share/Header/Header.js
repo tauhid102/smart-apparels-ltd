@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import logo from "../../../images/logo.png"
 const Navbar = () => {
   return (
     <div className="header">
@@ -8,7 +9,7 @@ const Navbar = () => {
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img
-              src="https://i.ibb.co/6RYVrgB/SABD-logo.png"
+              src={logo}
               alt="Logo"
               width= "120%"
               height="40"

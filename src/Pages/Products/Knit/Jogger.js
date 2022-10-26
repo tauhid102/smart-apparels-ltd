@@ -1,5 +1,8 @@
 import React from "react";
-
+import image1 from "../../../images/Knit/Jogger/1.jpg";
+import image2 from "../../../images/Knit/Jogger/2.jpg";
+import image3 from "../../../images/Knit/Jogger/3.jpg";
+import image4 from "../../../images/Knit/Jogger/4.jpg";
 const Jogger = () => {
   return (
     <div>
@@ -8,13 +11,13 @@ const Jogger = () => {
         <div className="imageGallery row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div className="col ">
             <img
-              src="https://i.ibb.co/9cLkVSg/4.jpg"
+              src={image1}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Boat on Calm Water"
             />
 
             <img
-              src="https://i.ibb.co/yqgnWqq/3.jpg"
+              src={image2}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Wintry Mountain Landscape"
             />
@@ -22,7 +25,7 @@ const Jogger = () => {
 
           <div className="col ">
             <img
-              src="https://i.ibb.co/p1WbNMQ/2.jpg"
+              src={image3}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Mountains in the Clouds"
             />
@@ -30,7 +33,7 @@ const Jogger = () => {
 
           <div className="col ">
           <img
-              src="https://i.ibb.co/0VR7zTm/1.jpg"
+              src={image4}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Boat on Calm Water"
             />

@@ -115,6 +115,15 @@
     justify-content: center;
     border-radius: 10px;
 }
+.aboutContainer{
+    margin-bottom: 115px;
+}
+.company-container{
+    margin-bottom: 180px;
+}
+.contact-container{
+    margin-bottom: 98px;
+}
 .vission{
     background-color: #b5c0c56b;
     align-items: center;

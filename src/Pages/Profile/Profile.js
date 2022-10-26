@@ -2,13 +2,13 @@ import React from 'react';
 import '../Style/Style.css';
 const Profile = () => {
     return (
-        <div>
+        <div className='company-container'>
             <div className='mt-5 pt-3 container section-Head'>
                 <div className='text-center headerWidth'><h2 className='mt-3 mb-5'>Companies</h2></div>
                 <div className='company-content mb-5'>
                 <div className='left-company'>
                     <h5>Textile</h5>
-                    <p>- Smart Apparels Ltd.</p>
+                    <p>- Smart Apparel BD</p>
                 </div>
                 <div className='left-company '>
                     <h5>Retail</h5>

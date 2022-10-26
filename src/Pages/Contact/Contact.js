@@ -2,7 +2,7 @@ import React from "react";
 import "../Style/Style.css";
 const Contact = () => {
   return (
-    <div>
+    <div className="contact-container">
       <div className="mt-5 pt-3 container section-Head">
         <div className="text-center headerWidth"><h2 className="mt-3">Contact Us</h2></div>
         <div className="row row-cols-1 row-cols-md-2 mt-2 g-4">

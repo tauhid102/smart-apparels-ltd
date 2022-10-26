@@ -1,14 +1,15 @@
 import React from "react";
-import '../Style/Style.css'
+import '../Style/Style.css';
+import aboutP from "../../images/about.png";
 const AboutUs = () => {
   return (
-    <>
+    <div className="aboutContainer">
       <div className="mt-5 pt-3 container section-Head">
         <div className="headerWidth text-center"><h2 className=" mt-3">About Us</h2></div>
         <div className="row row-cols-1 row-cols-md-2">
           <div className="col">
             <img
-              src="https://i.ibb.co/NVSnmfH/about-image.png"
+              src={aboutP}
               alt=""
               srcset=""
               width="90%"
@@ -17,7 +18,7 @@ const AboutUs = () => {
           </div>
           <div className="col about mt-3">
             <p className="aboutParagraph mt-4">
-              Smart Apparels BD (SABD) is a 100% export oriented Garment
+              Smart Apparel BD (SABD) is a 100% export oriented Garment
               Buying House and Sourcing agent. Smart Apparels BD located in
               Dhaka, which is the hub of all the commercial and business
               activities of Bangladesh.
@@ -37,7 +38,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

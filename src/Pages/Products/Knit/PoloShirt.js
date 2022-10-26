@@ -1,5 +1,8 @@
 import React from "react";
 import "../../Style/Style.css";
+import image1 from "../../../images/Knit/Polo-shirt/1.jpg";
+import image2 from "../../../images/Knit/Polo-shirt/2.jpg";
+import image3 from "../../../images/Knit/Polo-shirt/3.jpg";
 const PoloShirt = () => {
   return (
     <>
@@ -8,7 +11,7 @@ const PoloShirt = () => {
         <div className="imageGallery row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div className="col ">
             <img
-              src="https://i.ibb.co/xJwxm93/3.jpg"
+              src={image1}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Boat on Calm Water"
             />
@@ -17,7 +20,7 @@ const PoloShirt = () => {
 
           <div className="col ">
             <img
-              src="https://i.ibb.co/cF1x0h4/1.jpg"
+              src={image2}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Mountains in the Clouds"
             />
@@ -25,7 +28,7 @@ const PoloShirt = () => {
           <div className="col ">
             
           <img
-              src="https://i.ibb.co/FXsc8p6/2.jpg"
+              src={image3}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Wintry Mountain Landscape"
             />

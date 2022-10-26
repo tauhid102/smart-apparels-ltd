@@ -14,8 +14,8 @@ const Services = () => {
               </div>
               <h3>Communication</h3>
               <p>
-                We continuously communicate with our buyers and urgent repsonse
-                their quires.
+                We continuously communicate with our buyers and urgent response
+                their queries.
               </p>
             </div>
             <div className="service col">
